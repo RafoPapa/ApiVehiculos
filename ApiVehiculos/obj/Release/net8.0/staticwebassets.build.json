@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "f3vhuoSdnFaeyLviyx7D0AdxzXNZhmLIfPiz58ifwzI=",
+  "Source": "ApiVehiculos",
+  "BasePath": "_content/ApiVehiculos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
