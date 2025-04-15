@@ -109,6 +109,31 @@ app.MapPost("/usuarios/buscarPorEmail",
     }
 });
 
+
+//Api POST para envío de parametros de manera segura.
+//esta api valida si ya está registrado un correo electrónico
+app.MapPost("/usuarios/validaEmail/buscarPorEmail",
+    async (LoginRequerido requerido, GestionVehiculos25Context DB) =>
+    {
+        if (requerido == null || string.IsNullOrEmpty(requerido.Email))
+        {
+            return Results.BadRequest("Falta datos de correo electrónico");
+        }
+
+        var usuarioSistema = await DB.Usuarios.Where(filtro => filtro.Email 
+                                                    == requerido.Email).ToListAsync();
+
+        if (usuarioSistema.Count() == 0)
+        {
+            //cod 204 No hay contenido API REST
+            return Results.NoContent();
+        }
+        else
+        {
+            return Results.Ok(usuarioSistema);
+        }
+    });
+
 //API para registrar un nuevo usuario
 app.MapPost("/usuarios/creaUsuario", async (Usuario nuevoUsuario, GestionVehiculos25Context BD) =>
 {

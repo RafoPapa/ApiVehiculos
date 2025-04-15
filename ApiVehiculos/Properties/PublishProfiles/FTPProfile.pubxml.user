@@ -5,21 +5,21 @@
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbzvrxMETSEW12tlC6JtvWQAAAAACAAAAAAAQZgAAAAEAACAAAAAo3cVkWpXIFfpYKdzc2+RDy91Ax/8UujpIHv9tMXHd3QAAAAAOgAAAAAIAACAAAABAz9l8NYts+15mrDOthcZNmd8fRq383rHlnewci+svVyAAAACbNz0NIHTkEgBL6ydeZSWQZkgWgXku8FfmJhGvr8fOV0AAAACCsZrbmPHuddRjGE2yIXQfMGDO+b/pPTyESqTkkrDWq8hzsjB1iFOOxI1rCgLXRGqQgmTtH+TzD63ZKAq5Kn84</EncryptedPassword>
     <_PublishTargetUrl>ftp://155.254.246.24/www.detecpro.somee.com</_PublishTargetUrl>
-    <History>True|2025-04-04T15:24:37.1324514Z||;</History>
+    <History>True|2025-04-11T15:26:58.0426200Z||;True|2025-04-04T10:24:37.1324514-05:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApiVehiculos.deps.json">
-      <publishTime>04/04/2025 10:21:12</publishTime>
+      <publishTime>04/11/2025 10:23:16</publishTime>
     </File>
     <File Include="ApiVehiculos.dll">
-      <publishTime>04/04/2025 10:21:12</publishTime>
+      <publishTime>04/11/2025 10:23:10</publishTime>
     </File>
     <File Include="ApiVehiculos.exe">
-      <publishTime>04/04/2025 10:21:12</publishTime>
+      <publishTime>04/11/2025 10:23:10</publishTime>
     </File>
     <File Include="ApiVehiculos.pdb">
-      <publishTime>04/04/2025 10:21:12</publishTime>
+      <publishTime>04/11/2025 10:23:10</publishTime>
     </File>
     <File Include="ApiVehiculos.runtimeconfig.json">
       <publishTime>04/04/2025 10:14:17</publishTime>
@@ -211,7 +211,7 @@
       <publishTime>10/22/2021 18:49:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>04/04/2025 10:21:12</publishTime>
+      <publishTime>04/11/2025 10:23:17</publishTime>
     </File>
   </ItemGroup>
 </Project>

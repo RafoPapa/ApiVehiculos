@@ -171,3 +171,4 @@ D:\INGENIERIA\2025\6to\ApiVehiculos\ApiVehiculos\ApiVehiculos\obj\Release\net8.0
 D:\INGENIERIA\2025\6to\ApiVehiculos\ApiVehiculos\ApiVehiculos\obj\Release\net8.0\ApiVehiculos.pdb
 D:\INGENIERIA\2025\6to\ApiVehiculos\ApiVehiculos\ApiVehiculos\obj\Release\net8.0\ApiVehiculos.genruntimeconfig.cache
 D:\INGENIERIA\2025\6to\ApiVehiculos\ApiVehiculos\ApiVehiculos\obj\Release\net8.0\ref\ApiVehiculos.dll
+D:\INGENIERIA\2025\6to\ApiVehiculos\ApiVehiculos\ApiVehiculos\obj\Release\net8.0\ApiVehiculos.sourcelink.json

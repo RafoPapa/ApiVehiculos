@@ -92,6 +92,28 @@
         }
       }
     },
+    "/usuarios/validaEmail/buscarPorEmail": {
+      "post": {
+        "tags": [
+          "ApiVehiculos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequerido"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/usuarios/creaUsuario": {
       "post": {
         "tags": [
